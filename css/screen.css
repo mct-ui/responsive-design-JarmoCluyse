@@ -525,6 +525,23 @@ a:focus {
     background-color: #3e3ea8;
 }
 
+.c-link-cta--inverse,
+.c-link-cta--inverse:visited,
+.c-link-cta--inverse:active {
+    color: #fff;
+}
+
+.c-link-cta--inverse::before {
+     background-color: #fff;
+}
+
+.c-link-cta--inverse:hover::before {
+    background-color: #fff;
+}
+.c-gradient {
+    background: linear-gradient(to top right, #5051DB,#3887F7);
+    color: white;
+}
 /*------------------------------------*\
   #UTILITIES
 \*------------------------------------*/
